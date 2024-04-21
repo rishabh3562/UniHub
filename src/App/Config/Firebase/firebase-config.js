@@ -3,11 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-librarie
-// Your web app's Firebase configuration
 
-// dotenv.config("../../../.env.local");
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_FIREBAE_AUTHDOMAIN,
@@ -18,7 +14,7 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_FIREBAE_MEASUREMENTID,
 };
 
-console.log("firebaseConfig", firebaseConfig);
+// console.log("firebaseConfig", firebaseConfig);
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
