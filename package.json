@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "env-cmd": "^10.1.0",
     "file-saver": "^2.0.5",
     "firebase": "^10.4.0",
     "flowbite": "^1.8.1",
@@ -36,9 +37,10 @@
     "build": "react-scripts build",
     "serve": "serve build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:firebase": "env-cmd -f .env npm run build && firebase deploy -P unihub-b9fc1",
+    "build:env":"env-cmd -f .env npm run build"
   },
- 
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -61,5 +63,4 @@
     "daisyui": "^3.6.4",
     "tailwindcss": "^3.3.3"
   }
- 
 }
