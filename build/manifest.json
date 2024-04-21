@@ -1,0 +1,25 @@
+{
+  "short_name": "Alumni Nexus",
+  "name": "Alumni Nexus - Bridging Past and Present",
+  "icons": [
+    {
+      "src": "src/App/assets/logo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#011324",
+  "background_color": "#FFFFFF"
+}

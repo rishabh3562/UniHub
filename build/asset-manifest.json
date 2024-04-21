@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca6e8509.css",
+    "main.js": "/static/js/main.1bcbdbfd.js",
+    "static/js/787.2fb852c4.chunk.js": "/static/js/787.2fb852c4.chunk.js",
+    "static/media/DTGetaiGroteskDisplay-Black.ttf": "/static/media/DTGetaiGroteskDisplay-Black.cb10e0f5baf676afa06d.ttf",
+    "static/media/Trap-Black.otf": "/static/media/Trap-Black.c84772c55e71173a5a32.otf",
+    "static/media/Trap-ExtraBold.otf": "/static/media/Trap-ExtraBold.a697961981ac6dcb9d06.otf",
+    "static/media/Trap-Bold.otf": "/static/media/Trap-Bold.9ccc120585004b89ecfd.otf",
+    "static/media/Trap-SemiBold.otf": "/static/media/Trap-SemiBold.74d74ca45ac1912e20a3.otf",
+    "static/media/Trap-Medium.otf": "/static/media/Trap-Medium.621b8e0b822153b4913a.otf",
+    "static/media/Trap-Light.otf": "/static/media/Trap-Light.37a6356e7279ae69017d.otf",
+    "static/media/Trap-Regular.otf": "/static/media/Trap-Regular.a4b62dc9e1a632cbbd62.otf",
+    "index.html": "/index.html",
+    "main.ca6e8509.css.map": "/static/css/main.ca6e8509.css.map",
+    "main.1bcbdbfd.js.map": "/static/js/main.1bcbdbfd.js.map",
+    "787.2fb852c4.chunk.js.map": "/static/js/787.2fb852c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca6e8509.css",
+    "static/js/main.1bcbdbfd.js"
+  ]
+}
