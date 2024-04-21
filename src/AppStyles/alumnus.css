@@ -1,0 +1,89 @@
+.alumni{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    object-fit: cover;
+}
+
+.alumni img{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    object-fit: cover;
+}
+
+/* .alumni-img{
+    width: 5rem;
+    height: 5rem;
+} */
+
+.alumni-img img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--color-2);
+    border-radius: 15px;
+    background-image: cover;
+    object-fit: cover;
+}
+
+.details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.view-more{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.i-hover-color{
+    color: var(--color-3);
+    transition: 1s ease;
+}
+
+.t-hover-color{
+    color: var(--color-2);
+    transition: 4ms ease;
+}
+
+.view-more:hover .i-hover-color{
+    color: var(--color-2);
+}
+
+.view-more:hover .t-hover-color{
+    color: var(--color-3);
+}
+
+.btn-hover{
+    background-color: var(--color-3);
+    transition: 4ms ease;
+}
+
+.btn-hover:hover{
+    background-color: var(--color-4);
+    color: var(--color-2);
+}
+
+@media screen and (min-width: 320px) {
+    .alumni{
+        width: 100%;
+        height: 18rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .alumni{
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .alumni{
+        width: 100%;
+        height: 16rem;
+    }
+}

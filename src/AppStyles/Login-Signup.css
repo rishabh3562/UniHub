@@ -1,0 +1,30 @@
+.form-middle, .form-lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.placeholder-color-text::placeholder{
+    color: var(--color-7)
+}
+.no-focus-outline:focus{
+    outline: none;
+}
+
+.line{
+    background: var(--color-4);
+    height: 0;
+    border: 1.5px dashed var(--color-3);
+}
+
+.create-acc-btn{
+    background: var(--color-3);
+    color: var(--color-4);
+    border: none;
+    transition: 4ms ease;
+}
+
+.create-acc-btn:hover{
+    background: var(--color-2);
+
+}

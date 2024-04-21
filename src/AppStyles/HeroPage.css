@@ -1,0 +1,19 @@
+.btn-hov{
+    background: var(--color-4);
+    transition: 0.4s ease;
+}
+
+.btn-hov:hover{
+    background: var(--color-2);
+    color: var(--color-4)
+}
+
+.btn-hov .btn-font{
+    /* background: var(--color-2); */
+    color: var(--color-2)
+}
+
+.btn-hov:hover .btn-font{
+    /* background: var(--color-2); */
+    color: var(--color-4)
+}

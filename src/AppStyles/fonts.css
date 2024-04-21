@@ -1,0 +1,38 @@
+/* ------------------------------------------------- */
+/* Trap font */
+/* ------------------------------------------------- */
+@font-face {
+    font-family: 'Trap-Light';
+    src: url(../../public/fonts/Trap-Light.otf);
+}
+@font-face {
+    font-family: 'Trap-Regular';
+    src: url(../../public/fonts/Trap-Regular.otf);
+}
+@font-face {
+    font-family: 'Trap-Medium';
+    src: url(../../public/fonts/Trap-Medium.otf);
+}
+@font-face {
+    font-family: 'Trap-Semibold';
+    src: url(../../public/fonts/Trap-SemiBold.otf);
+}
+@font-face {
+    font-family: 'Trap-Bold';
+    src: url(../../public/fonts/Trap-Bold.otf);
+}
+@font-face {
+    font-family: 'Trap-ExtraBold';
+    src: url(../../public/fonts/Trap-ExtraBold.otf);
+}
+@font-face {
+    font-family: 'Trap-Black';
+    src: url(../../public/fonts/Trap-Black.otf);
+}
+/* ------------------------------------------------- */
+/* DT Getai Grostek font */
+/* ------------------------------------------------- */
+@font-face {
+    font-family: 'DTGetaiGroteskDisplay-Black';
+    src: url(../../public/fonts/DTGetaiGroteskDisplay-Black.ttf);
+}

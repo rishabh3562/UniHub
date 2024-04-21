@@ -1,0 +1,82 @@
+/* .cat-hov{
+    color: var(--color-6);
+    transition: 0.3s;
+}
+
+.cat-hov:hover .cat-btn, .cat-hov:hover .cat{
+    color: var(--color-3);
+} */
+
+.filter-hov{
+    background: var(--color-10);
+    color: var(--color-3);
+    transition: 0.3s;
+}
+
+.filter-hov:hover{
+    background: var(--color-3);
+    color: var(--color-4);
+}
+
+.active-filter {
+    background: var(--color-3);
+    color: var(--color-4);
+    transition: 0.3s;
+  }
+  
+  .active-filter:hover {
+    background: var(--color-10);
+    color: var(--color-3);
+  }
+
+.event-banner{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-image: cover;
+}
+
+.event-banner img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    background-image: cover;
+}
+
+.join-meet{
+    /* height: 100%;
+    width: 60%; */
+    text-align: center;
+    border: none;
+    background-color: var(--color-3);
+}
+
+.share{
+    /* height: 100%;
+    width: 15%; */
+    border: none;
+    text-align: center;
+    background-color: var(--color-3);
+}
+
+@media screen and (min-width: 320px) {
+    .event-banner img{
+        height: 15rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .event-banner img{
+        height: 20rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .event-banner img{
+        height: 30rem;
+        width: 100%;
+    }
+}
