@@ -1,0 +1,30 @@
+{
+  "name": "unihub-backend",
+  "version": "1.0.0",
+  "description": "backend for the unihub project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "server": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh3562/UniHub.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Rishabh Dubey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabh3562/UniHub/issues"
+  },
+  "homepage": "https://github.com/rishabh3562/UniHub#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
