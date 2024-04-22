@@ -19,10 +19,12 @@ const router = createBrowserRouter([
 
 function App() {
   return (<>
-    
-    <SkeletonTheme baseColor="#202020" highlightColor="#444">
+    <ChakraProvider>
+
+    <SkeletonTheme baseColor="#1A2A39" highlightColor="#e50000">
     <RouterProvider router={router} />
     </SkeletonTheme>
+    </ChakraProvider>
   </>
   );
 }
