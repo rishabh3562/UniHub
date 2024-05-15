@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState ,useContext} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import logo1 from "../assets/logo.png";
@@ -6,7 +6,7 @@ import logo1 from "../assets/logo.png";
 import "../../AppStyles/global.css";
 import { auth } from "../Config/Firebase/firebase-config";
 import { getCurrentUserData } from "../../utils/firebaseapi/getCurrentUserData";
-import { useUserContext } from "../Config/Context/UserProvider";
+import { useUserContext,UserContext } from "../Config/Context/UserProvider";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { PiGraduationCap } from "react-icons/pi";
