@@ -1,4 +1,5 @@
 # UniHub
+![Landing Page](/readmeimages/Hero_page_unihub.jpg)
 
 UniHub is a comprehensive college platform designed to enhance the student experience by providing a centralized hub for various resources and opportunities. Whether you're seeking internships, connecting with alumni, accessing academic tests, or forging friendships, UniHub offers a seamless and intuitive interface to navigate the diverse facets of college life.
 
@@ -19,8 +20,11 @@ UniHub leverages the following technologies:
 
 ## Screenshots
 
-![Landing Page](/readmeimages/Hero_page_unihub.jpg)
-*Landing Page*
+*Share referrals*
+![Landing Page](/readmeimages/referral_page.jpg)
+
+*Meet Alumni*
+![Landing Page](/readmeimages/meet_alums.jpg)
 
 ## Getting Started
 
